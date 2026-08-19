@@ -79,7 +79,7 @@ src/
 │   ├── property.rs  # PropertyValue (String, Integer, Float, Boolean, DateTime, Array, Map, Null)
 │   └── types.rs     # NodeId, EdgeId, Label, EdgeType
 │
-├── query/           # OpenCypher Query Engine (~90% coverage)
+├── query/           # OpenCypher Query Engine
 │   ├── parser.rs    # Pest-based OpenCypher parser
 │   ├── cypher.pest  # PEG grammar (atomic keyword rules for word boundaries)
 │   ├── ast.rs       # Query AST
